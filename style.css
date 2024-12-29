@@ -1,0 +1,151 @@
+a{
+    margin-left: 6px;
+}
+nav{
+    border: solid black 1px;
+    padding: 15px;
+    background-color: white;
+    font-size: 150%;
+    text-align: center;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+body.indice{
+    background-image: url(img/safari.png);
+    background-repeat: no-repeat;
+    background-size: 100% 270%;
+}
+
+section.indice{
+    text-align: center;
+    color: rgb(47, 129, 47);
+    font-size: 125%;
+    padding: 10em;
+    font-style: oblique;
+}
+
+section.indice h1:hover {
+    background-color: rgb(47, 129, 47);
+    color: white;
+}
+
+nav a:hover{
+    background-color: rgb(47, 129, 47);
+    color: white;
+}
+
+div.nosotros1{
+    padding: 0em 10em;
+    text-align: center;
+}
+
+div.nosotros2{
+    /*background-image: url(img/koala.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div.nosotros2 > div{
+    padding-left: 1em;
+    text-align: center;
+}
+
+section.our{
+    /*padding: 2em 2em;*/
+    background-image: url(img/koala.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    font-size: 125%;
+    
+}
+
+div.nosotros3{
+    text-align: center;
+    padding-top: 2em;
+}
+
+div.nosotros3 a{
+    border: solid black .2em;
+    padding: 1em;
+    background-color: rgb(209, 164, 252);
+    
+}
+
+section.servicios > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 125%;
+}
+
+section.servicios img{
+    width: 15em;
+    height: 15em;
+    display: block;
+    margin: auto;
+}
+
+section.servicios > div > div {
+    margin-left: 2em;
+}
+
+section.servicios h2{
+    text-align: center;
+    font-size: 150%
+}
+
+section.instalacion > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section.instalacion img{
+    width: 80%;
+    height: 80%;
+}
+
+section.instalacion{
+    padding: 3em;
+    text-align: center;
+}
+
+body.instalacion{
+    background-color: rgb(211, 220, 231);
+}
+
+section.metodologia1 > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3em;
+}
+
+section.metodologia1 img{
+    width:80%;
+    height: 80%;
+}
+
+.metouno{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.metodos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.metodos p{
+    padding: 1em 3em;
+}
+
+body.metodologia{
+    background-color: rgb(255, 255, 255);
+}
+
+body.metodologia section h2{
+    text-align: center;
+    font-size: 200%;
+}
